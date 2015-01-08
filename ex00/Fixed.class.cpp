@@ -1,10 +1,10 @@
 #include "Fixed.class.hpp"
 
-Fixed::Fixed() : _data(8) {
+Fixed::Fixed() : _bit(8) {
     std::cout << "Default constructor called" << std::endl;
 }
 
-Fixed::Fixed(Fixed const & src) : _data(8) {
+Fixed::Fixed(Fixed const & src) : _bit(8) {
     std::cout << "Copy constructor called" << std::endl;
     *this = src;
 }
